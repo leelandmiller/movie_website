@@ -41,6 +41,7 @@ the_amazing_spiderman_2 = media.Movie(
     "amazing_spider-man_2_movie_poster_5.jpg",
     "https://www.youtube.com/watch?v=DlM2CWNTQ84")
 
+#list of movies to passed into fresh_tomatoes.open_movies_page
 movies_list = [
 toy_story,
 avatar,
