@@ -6,7 +6,14 @@ class Movie():
     #constructor
     def __init__(self, title, storyline, poster_image_url,
                  trailer_youtube_url, rating):
-        #instance variables
+        '''
+        Args:
+            title: stores the title of the Movie
+            storyline: stores the storyline/simplified plot of the Movie
+            poster_image_url: URL for the Movie poster
+            trailer_youtube_url: URL for the Movie trailer on YouTube
+            rating: the Movie's MPAA rating
+        '''
         self.title = title
         self.storyline = storyline
         self.poster_image_url = poster_image_url

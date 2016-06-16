@@ -2,7 +2,7 @@ import media
 import fresh_tomatoes
 
 #instance variables
-toy_story = media.Movie(
+avengers = media.Movie(
     "Avengers: Age of Ultron",
     "The Avengers battle Ultron",
     "http://vamers.com/wp-content/uploads/2015/03/Vamers-FYI-Movies-Avengers-Age"
@@ -47,9 +47,9 @@ the_amazing_spiderman_2 = media.Movie(
     "https://www.youtube.com/watch?v=DlM2CWNTQ84",
     media.Movie.VALID_RATINGS[2])
 
-#list of movies to passed into fresh_tomatoes.open_movies_page
+#list of movies to be passed into fresh_tomatoes.open_movies_page
 movies_list = [
-toy_story,
+avengers,
 avatar,
 the_dark_knight,
 the_dark_knight_rises,
